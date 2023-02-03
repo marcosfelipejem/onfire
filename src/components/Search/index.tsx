@@ -98,7 +98,7 @@ const Search = () => {
                     />
                   </div>
                   {/* <div className="item2">#43228901</div> */}
-                  <div className="item2">{item?.sku}</div>
+                  <div className="item2">#{item?.sku}</div>
                   {/* <div className="item3">Immediate stock: 187</div> */}
                   <div className="item3">Immediate stock: {item?.stock}</div>
                   <div className="item4">
