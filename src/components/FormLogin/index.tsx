@@ -1,5 +1,5 @@
 import * as S from './styles'
-import TextField from 'components/TextField'
+// import TextField from 'components/TextField'
 import Checkbox from 'components/Checkbox'
 import Button from 'components/Button'
 import Link from 'next/link'
@@ -8,8 +8,20 @@ const FormLogin = () => (
   <S.Wrapper>
     <form className="formLogin">
       <h2 className="formTitle">Login</h2>
-      <input name="email" type="email" placeholder="E-mail" required />
-      <input name="password" type="password" placeholder="Password" required />
+      <input
+        className="inputLogin"
+        name="email"
+        type="email"
+        placeholder="E-mail"
+        required
+      />
+      <input
+        className="inputLogin"
+        name="password"
+        type="password"
+        placeholder="Password"
+        required
+      />
       <Link href="/">
         <a className="forgotinputLabel">Forgot username or password?</a>
       </Link>

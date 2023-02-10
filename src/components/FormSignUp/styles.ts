@@ -2,12 +2,13 @@ import styled from 'styled-components'
 import media from 'styled-media-query'
 import theme from 'styles/theme'
 
-export const Wrapper = styled.main`
+export const Wrapper = styled.div`
   color: ${theme.colors.gray};
 
   input {
     width: 100% !important;
   }
+
   .inputLogin {
     padding: 15px;
     border-radius: ${theme.border.radius};
